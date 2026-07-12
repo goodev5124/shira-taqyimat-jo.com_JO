@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700;800&display=swap');
 
 :root {
-    --primary: #C1272D;
-    --primary-dark: #8B1A1F;
-    --secondary: #006233;
-    --secondary-dark: #004d27;
-    --dark: #2c2c2c;
-    --light: #fdf6f6;
+    --primary: #CE1126;
+    --primary-dark: #A10E1F;
+    --secondary: #007A3D;
+    --secondary-dark: #005E2F;
+    --dark: #1a1a1a;
+    --light: #f6faf7;
     --white: #ffffff;
     --gray: #4a4a4a;
-    --gray-light: #f0e8e8;
-    --gradient: linear-gradient(135deg, #C1272D 0%, #006233 100%);
-    --gradient-soft: linear-gradient(135deg, #C1272D 0%, #8B1A1F 100%);
-    --shadow: 0 10px 40px rgba(193, 39, 45, 0.18);
+    --gray-light: #e7efe9;
+    --gradient: linear-gradient(135deg, #CE1126 0%, #007A3D 100%);
+    --gradient-soft: linear-gradient(135deg, #CE1126 0%, #A10E1F 100%);
+    --shadow: 0 10px 40px rgba(206, 17, 38, 0.18);
     --shadow-sm: 0 4px 15px rgba(0, 0, 0, 0.08);
-    --shadow-green: 0 10px 40px rgba(0, 98, 51, 0.18);
+    --shadow-green: 0 10px 40px rgba(0, 122, 61, 0.18);
     --radius: 12px;
     --radius-lg: 20px;
     --transition: all 0.3s ease;
@@ -77,12 +77,12 @@ img {
 .btn-primary {
     background: var(--gradient);
     color: var(--white);
-    box-shadow: 0 4px 20px rgba(193, 39, 45, 0.35);
+    box-shadow: 0 4px 20px rgba(206, 17, 38, 0.35);
 }
 
 .btn-primary:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 30px rgba(193, 39, 45, 0.5);
+    box-shadow: 0 8px 30px rgba(206, 17, 38, 0.5);
 }
 
 .btn-outline {
@@ -1167,7 +1167,7 @@ img {
 /* ============================================ */
 
 .hero {
-    background: linear-gradient(180deg, #fdf6f6 0%, var(--white) 100%);
+    background: linear-gradient(180deg, #f6faf7 0%, var(--white) 100%);
     position: relative;
 }
 
@@ -1182,20 +1182,20 @@ img {
 }
 
 .credibility {
-    background: linear-gradient(180deg, var(--white) 0%, #fdf6f6 100%);
+    background: linear-gradient(180deg, var(--white) 0%, #f6faf7 100%);
 }
 
 .faq {
-    background: linear-gradient(180deg, #fdf6f6 0%, var(--white) 100%);
+    background: linear-gradient(180deg, #f6faf7 0%, var(--white) 100%);
 }
 
 .how-it-works {
-    background: linear-gradient(180deg, var(--white) 0%, #fdf6f6 100%);
+    background: linear-gradient(180deg, var(--white) 0%, #f6faf7 100%);
 }
 
 .step-icon {
     background: var(--gradient);
-    box-shadow: 0 8px 25px rgba(193, 39, 45, 0.3);
+    box-shadow: 0 8px 25px rgba(206, 17, 38, 0.3);
 }
 
 .pricing-card {
